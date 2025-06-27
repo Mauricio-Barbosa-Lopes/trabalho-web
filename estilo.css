@@ -4,5 +4,17 @@ body {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-columns: 220px 100px 100px 100px 150px 100px 270px 60px 60px 60px 100px;
+  /*                   espaço   img store   abou  comm  sup   sing  noti  amig  car   busca*/
+  color: lightgray;
+  font-size: 20px;
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: 10% 4% 1% 5% 1% 5% 1% 4% 1% 4% 1% 4% 4% 4% ;	
+}
+
+.wrapper {
+background-color: black;
+}	
