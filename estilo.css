@@ -33,6 +33,16 @@ body {
 
 .cinco{
 	display:grid;
-	grid-template-columns: 100% 10%;
+	grid-template-columns: 100% 20%;
 	
+}
+table {
+  border-spacing: 5px;
+  background-color: white;
+}
+
+td {
+  padding: 1px 60px 1px;
+  white-space: nowrap;
+
 }
