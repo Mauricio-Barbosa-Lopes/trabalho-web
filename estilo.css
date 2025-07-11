@@ -46,3 +46,22 @@ td {
   white-space: nowrap;
 
 }
+
+<style>
+  a {
+    color white;
+    text-decoration: none; 
+  }
+  a:visited{
+  color: white;
+  }
+  a:hover{
+	color: white;
+  }
+  a:active{
+	color: white;
+  }
+  a:focus{
+	color: white;
+  }
+</style>
