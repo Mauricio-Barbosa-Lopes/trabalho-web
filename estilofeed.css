@@ -6,7 +6,7 @@ input{
 	color:white;
 }
 
-.container {
+.cards {
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -18,17 +18,18 @@ input{
   background-color: #2d2d2d;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .card-header {
   padding: 10px 15px;
   background-color: #1c1c1c;
   font-size: 14px;
-  color: white;
 }
 
-.card-header .username {
+.username {
   color: orange;
   font-weight: bold;
 }
@@ -42,7 +43,7 @@ input{
   display: block;
 }
 
-.card-image .badge {
+.badge {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -59,3 +60,14 @@ input{
   text-align: right;
   padding: 8px 12px;
 }
+.topo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.topo input[type="text"] {
+  padding: 8px 12px;
+  font-size: 16px; 
+  width: 250px;
+}
+
